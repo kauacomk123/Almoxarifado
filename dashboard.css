@@ -1,0 +1,68 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef2f7;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Cabeçalho */
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #2c3e50;
+}
+
+/* Informações do usuário */
+p {
+    text-align: center;
+    font-size: 16px;
+    color: #555;
+}
+
+/* Menu principal */
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin-top: 30px;
+}
+
+ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    background-color: #3498db;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+ul li a:hover {
+    background-color: #2980b9;
+}
+
+/* Botão de voltar */
+.voltar-btn {
+    display: block;
+    width: 120px;
+    margin: 30px auto;
+    text-align: center;
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.voltar-btn:hover {
+    background-color: #c0392b;
+}
